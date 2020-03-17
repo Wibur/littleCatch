@@ -9,7 +9,7 @@ LaravelPrac
 >cd dockerfiles
 
 ## 啟動docker
->docker-compose up -d
+>docker-compose up -d
 
 ## 進入容器內
 >docker-compose exec app bash
