@@ -26,7 +26,7 @@ class Kernel extends ConsoleKernel
     {
         // 每小時執行爬蟲排程
         $schedule->call('App\Http\Controllers\CatchController@store')
-            ->everyMinute();
+            ->();
     }
 
     /**
