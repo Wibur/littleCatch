@@ -5,6 +5,10 @@ LaravelPrac
 ## 環境檔
 >cp .env.example .env
 
+## docker 環境檔
+cp .env.database ./dockerfiles/.env
+
+
 ## 進到dockerfiles資料夾
 >cd dockerfiles
 
