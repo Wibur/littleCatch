@@ -1,6 +1,7 @@
 LaravelPrac
 ## 基本安裝
 >composer install
+>cp .env.example .env
 
 ## 資料庫遷移
 >php artisan migrate
