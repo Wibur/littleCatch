@@ -1,6 +1,8 @@
 LaravelPrac
 ## 基本安裝
 >composer install
+
+## 環境檔
 >cp .env.example .env
 
 ## 資料庫遷移
@@ -14,4 +16,6 @@ LaravelPrac
 
 ## 進入容器內
 >docker-compose exec app bash
+
+## 排程指令
 >php artisan schedule:run
