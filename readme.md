@@ -6,8 +6,7 @@ LaravelPrac
 >cp .env.example .env
 
 ## docker 環境檔
-cp .env.database ./dockerfiles/.env
-
+>cp .env.database ./dockerfiles/.env
 
 ## 進到dockerfiles資料夾
 >cd dockerfiles
@@ -20,6 +19,3 @@ cp .env.database ./dockerfiles/.env
 
 ## 進入容器內
 >docker-compose exec app bash
-
-## 排程指令
->php artisan schedule:run

@@ -19,6 +19,7 @@ class ContellationRepository
         try {
             return $this->model->insert($data);
         } catch (QueryException $e) {
+            dd($e->getMessage());
             return false;
         }
     }

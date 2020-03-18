@@ -25,4 +25,4 @@ Route::post('/logout', 'LoginController@logout')->name('loginOut');
 
 //Constellations
 Route::get('/constellations', 'CatchController@index');
-// Route::get('/constellations/store', 'CatchController@store');
+Route::get('/constellations/store', 'CatchController@store');

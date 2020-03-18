@@ -29,4 +29,4 @@ RUN apt-get update && apt-get install -y mysql-client --no-install-recommends \
   && apt-get install -y cron \
   && apt-get install rsyslog -y \
   && sed -i '/session    required     pam_loginuid.so/c\#session    required   pam_loginuid.so' /etc/pam.d/cron \
-  && echo "* * * * * root /var/www/artisan schedule:run" >> /etc/crontab
+  && echo "* * * * * root cd /var/www && php artisan schedule:run >> /dev/null 2>&1" >> /etc/crontab
