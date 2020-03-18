@@ -16,6 +16,3 @@ LaravelPrac
 
 ## 資料庫遷移
 >php artisan migrate
-
-## 進入容器內
->docker-compose exec app bash
